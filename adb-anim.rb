@@ -4,11 +4,10 @@
 class AdbAnim < Formula
   desc "A brew tap to enable/disable android animations using adb commands"
   homepage ""
-  url "https://github.com/horowitz/adb-anim/archive/v0.2.tar.gz"
-  sha256 "40d3087251003202016ba52c5ac0a78696c22b694b54cabe6ae52f5cf800440a"
+  url "https://github.com/horowitz/adb-anim/archive/v0.3.tar.gz"
+  sha256 "fd28d0621ffe1d9cbcdfadc65fba43b92e32a3167ca21e56ce13857ac78b6dd1"
 
   def install
-     bin.install "adb-anim"
+    bin.install "adb-anim"
   end
-
 end
